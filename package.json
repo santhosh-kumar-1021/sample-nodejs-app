@@ -1,0 +1,33 @@
+{
+  "name": "sample-nodejs-app",
+  "version": "1.0.0",
+  "description": "sample node app with rest api and jsonata examples.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodeman index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhosh-kumar-1021/sample-nodejs-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "app",
+    "jsonata",
+    "rest",
+    "api"
+  ],
+  "author": "Santhosh Kumar R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santhosh-kumar-1021/sample-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/santhosh-kumar-1021/sample-nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
