@@ -1,6 +1,6 @@
 {
   "name": "sample-nodejs-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sample node app with rest api and jsonata examples.",
   "main": "index.js",
   "scripts": {
