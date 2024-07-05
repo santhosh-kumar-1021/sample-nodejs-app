@@ -10,3 +10,9 @@ npm install nodemon --save-dev
 ## Install express server
 npm install express
 
+## Third party modules and libraries used.
+* body-parser
+- Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+
+## Git commands
+* Show remote url - git remote show origin

@@ -1,13 +1,23 @@
 // Import required modules
 const express = require('express');
+const fs = require('fs');
 
 const PORT = process.env.PORT || 3000; // Define port number
 const app = express(); // Create an instance of Express
 
 app.use(express.json()); // Middleware to parse JSON bodies
 
+// Create a write stream to a log file
+const logStream = fs.createWriteStream('app.log', { flags: 'a' });
+
+// Redirect console.log() output to the log file
+console.log = function(message) {
+  logStream.write(`${new Date().toISOString()} ${message}\n`);
+};
+
 // Define a route
 app.get('/', (req, res) => {
+  console.log("Hello, world!..");
   res.send('Hello, world!');
 });
 

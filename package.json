@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/santhosh-kumar-1021/sample-nodejs-app#readme",
   "dependencies": {
-    "express": "^4.18.3"
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
